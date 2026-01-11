@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NAV  1
@@ -23,14 +24,14 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp W  &kp M  &kp F  &kp P  &kp B  &kp EQUAL  &kp U  &kp O  &kp Y  &kp J  &kp BACKSLASH  &kp Q  &kp L  &kp N  &kp D  &kp F  &kp G  &kp MINUS  &kp E  &kp A  &kp I  &kp H  &kp K  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp SLASH  &kp SEMICOLON  &kp COMMA  &kp DOT  &kp SQT  &kp RETURN  &kp BACKSPACE  &kp R  &mo 2  &mo 1  &kp SPACE  &kp RIGHT_SHIFT
+&kp TAB  &kp W  &kp M  &kp F  &kp P  &kp B  &kp EQUAL  &kp U  &kp O  &kp Y  &kp J  &kp BACKSLASH  &kp Q  &kp L  &kp N  &kp S  &kp T  &kp G  &kp MINUS  &kp E  &kp A  &kp I  &kp H  &kp K  &kp LCTRL  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp SLASH  &kp SEMICOLON  &kp COMMA  &kp DOT  &kp SQT  &kp RETURN  &kp BACKSPACE  &kp R  &mo 2  &mo 1  &kp SPACE  &kp RIGHT_SHIFT
             >;
         };
 
         nav {
             display-name = "NAV";
             bindings = <
-&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &kp LSHFT  &studio_unlock  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &mkp MCLK  &kp HOME  &kp UP  &kp END  &kp DELETE  &kp CAPSLOCK  &bt BT_CLR  &kp ESCAPE  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &bt BT_SEL 4  &mkp RCLK  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_UP  &kp PRINTSCREEN  &kp LSHFT  &kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PAGE_DOWN  &kp PAUSE_BREAK  &kp LGUI  &kp SPACE  &trans  &trans  &trans  &kp RALT
             >;
         };
 
