@@ -37,7 +37,7 @@
         sym {
             display-name = "SYM";
             bindings = <
-&kp TAB  &kp CARET  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PRCNT  &kp PLUS  &kp LEFT_BRACE  &kp ASTERISK  &kp RIGHT_BRACE  &kp RPAR  &kp BSPC  &kp LCTRL  &kp EXCLAMATION  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp HASH  &kp COLON  &kp LEFT_PARENTHESIS  &kp AT  &kp RIGHT_PARENTHESIS  &kp BSLH  &kp GRAVE  &kp LSHFT  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &kp QUESTION  &kp LEFT_BRACKET  &kp LBRC  &kp RIGHT_BRACKET  &kp PIPE  &kp TILDE  &trans  &trans  &trans  &trans  &kp UNDER  &kp RALT
+&kp BACKSPACE  &kp KP_DIVIDE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_EQUAL  &kp PERCENT  &kp AT_SIGN  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE  &kp CARET  &kp KP_PLUS  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER  &kp HASH  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp DOLLAR  &kp KP_MINUS  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT  &kp PIPE  &kp EXCLAMATION  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE  &kp AMPERSAND  &kp KP_NUMLOCK  &kp LEFT_GUI  &trans  &trans  &kp UNDER  &kp DOUBLE_QUOTES
             >;
         };
 
