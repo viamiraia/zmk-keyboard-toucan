@@ -31,7 +31,7 @@
         nav {
             display-name = "NAV";
             bindings = <
-&kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &mkp MCLK  &kp HOME  &kp UP  &kp END  &kp DELETE  &kp CAPSLOCK  &bt BT_CLR  &kp ESCAPE  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &bt BT_SEL 4  &mkp RCLK  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_UP  &kp PRINTSCREEN  &kp LSHFT  &kp LEFT_GUI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PAGE_DOWN  &kp PAUSE_BREAK  &kp LGUI  &kp SPACE  &trans  &trans  &trans  &kp RALT
+&kp C_MUTE  &kp F1  &kp F2  &kp F3  &kp F4  &msc SCRL_UP  &mkp MCLK  &kp HOME  &kp UP  &kp END  &kp DELETE  &kp CAPSLOCK  &kp C_VOLUME_UP  &kp ESCAPE  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &msc SCRL_DOWN  &mkp RCLK  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_UP  &kp PRINTSCREEN  &kp C_VOLUME_DOWN  &kp LEFT_GUI  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN  &kp PAUSE_BREAK  &kp C_PLAY_PAUSE  &kp SPACE  &trans  &trans  &kp K_LOCK  &kp C_SLEEP
             >;
         };
 
