@@ -18,13 +18,41 @@
         };
     };
 
+    behaviors {
+        hml: home_row_mod_left {
+            compatible = "zmk,behavior-hold-tap";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
+            hold-trigger-on-release;
+        };
+
+        hmr: home_row_mod_right {
+            compatible = "zmk,behavior-hold-tap";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+            hold-trigger-on-release;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp W  &kp M  &kp F  &kp P  &kp B  &kp EQUAL  &kp U  &kp O  &kp Y  &kp J  &kp BACKSLASH  &kp Q  &kp L  &kp N  &kp S  &kp T  &kp G  &kp MINUS  &kp E  &kp A  &kp I  &kp H  &kp K  &kp LCTRL  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp SLASH  &kp SEMICOLON  &kp COMMA  &kp DOT  &kp SQT  &kp RETURN  &kp BACKSPACE  &kp R  &mo 2  &mo 1  &kp SPACE  &kp RIGHT_SHIFT
+&kp TAB  &kp W  &kp M  &kp F  &kp P  &kp B  &kp EQUAL  &kp U  &kp O  &kp Y  &kp J  &kp BACKSLASH  &kp Q  &hml LEFT_GUI L  &hml LEFT_ALT N  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G  &kp MINUS  &hmr RIGHT_SHIFT E  &hmr RIGHT_CONTROL A  &hmr RIGHT_ALT I  &hmr RIGHT_GUI H  &kp K  &kp LCTRL  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp SLASH  &kp SEMICOLON  &kp COMMA  &kp DOT  &kp SQT  &kp RETURN  &kp BACKSPACE  &kp R  &mo 2  &mo 1  &kp SPACE  &kp RIGHT_SHIFT
             >;
         };
 
