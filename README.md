@@ -13,6 +13,25 @@ i'm using timeless home row mods:
 - [zmk docs](https://zmk.dev/docs/keymaps/behaviors/hold-tap?examples=home_row_mods)
 - [urob](https://github.com/urob/zmk-config#timeless-homerow-mods)
 
+## keymap
+
+drawn using [keymap-drawer](https://github.com/caksoylar/keymap-drawer)
+
+![miraia's valmak toucan layout](./img/miraia-valmak-toucan.svg)
+
+### drawing steps
+
+prerequisites:
+- [uv](https://docs.astral.sh/uv/)
+- [just](https://just.systems/man/en/introduction.html)
+
+note: will install keymap-drawer as a uv tool
+
+```shell
+just install
+just draw
+```
+
 ## toucan
 
 [the beekeeb toucan keyboard](https://beekeeb.com/toucan-keyboard/) is a wireless split 42-key column‑stagger keyboard that a display and a trackpad, with an aggressive stagger on the pinky columns.

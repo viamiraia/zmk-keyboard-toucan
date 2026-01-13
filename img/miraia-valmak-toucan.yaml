@@ -1,0 +1,174 @@
+layout: {zmk_keyboard: toucan}
+layers:
+  BASE:
+  - TAB
+  - W
+  - M
+  - F
+  - P
+  - B
+  - '='
+  - U
+  - O
+  - Y
+  - J
+  - \
+  - Q
+  - {t: L, h: LEFT GUI}
+  - {t: N, h: LEFT ALT}
+  - {t: S, h: LEFT CONTROL}
+  - {t: T, h: LEFT SHIFT}
+  - G
+  - '-'
+  - {t: E, h: RIGHT SHIFT}
+  - {t: A, h: RIGHT CONTROL}
+  - {t: I, h: RIGHT ALT}
+  - {t: H, h: RIGHT GUI}
+  - K
+  - LCTRL
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - /
+  - ;
+  - ','
+  - .
+  - ''''
+  - RETURN
+  - BACKSPACE
+  - R
+  - SYM
+  - NAV
+  - SPACE
+  - RIGHT SHIFT
+  NAV:
+  - MUTE
+  - F1
+  - F2
+  - F3
+  - F4
+  - '&msc SCRL_UP'
+  - '&mkp MCLK'
+  - HOME
+  - UP
+  - END
+  - DELETE
+  - CAPSLOCK
+  - VOLUME UP
+  - ESCAPE
+  - LEFT ALT
+  - LEFT SHIFT
+  - LEFT CONTROL
+  - '&msc SCRL_DOWN'
+  - '&mkp RCLK'
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PAGE UP
+  - PRINTSCREEN
+  - VOLUME DOWN
+  - LEFT GUI
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - PAGE DOWN
+  - PAUSE BREAK
+  - PLAY PAUSE
+  - SPACE
+  - {t: ▽, type: trans}
+  - {type: held}
+  - LOCK
+  - SLEEP
+  SYM:
+  - BACKSPACE
+  - KP DIVIDE
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP EQUAL
+  - '%'
+  - '@'
+  - '{'
+  - '}'
+  - '~'
+  - ^
+  - KP PLUS
+  - KP MULTIPLY
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP ENTER
+  - '#'
+  - '?'
+  - (
+  - )
+  - ':'
+  - $
+  - KP MINUS
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
+  - '|'
+  - '!'
+  - '['
+  - ']'
+  - '`'
+  - '&'
+  - KP NUMLOCK
+  - LEFT GUI
+  - {type: held}
+  - {t: ▽, type: trans}
+  - _
+  - '"'
+  ADJ:
+  - '&studio_unlock'
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - BRIGHTNESS INC
+  - '&mkp MB4'
+  - '&msc SCRL_UP'
+  - '&mkp MB5'
+  - F19
+  - F20
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - BRIGHTNESS DEC
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - F21
+  - F22
+  - F13
+  - F14
+  - F15
+  - F16
+  - F17
+  - F18
+  - PREVIOUS
+  - REWIND
+  - PLAY PAUSE
+  - FAST FORWARD
+  - NEXT
+  - F23
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
