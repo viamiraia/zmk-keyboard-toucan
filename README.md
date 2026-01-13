@@ -1,13 +1,28 @@
-# ZMK config for beekeeb Toucan Keyboard
+# miraia's fork of zmk toucan keyboard config
 
-[The beekeeb Toucan Keyboard](https://beekeeb.com/toucan-keyboard/) is a wireless split 42-key column‑stagger keyboard that a display and a trackpad, with an aggressive stagger on the pinky columns.
+uses [keymap editor](https://nickcoutsos.github.io/keymap-editor/)
 
-# License
+current layout is valmak by valarauka:
 
-The code in this repo is available under the MIT license.
+- [reddit](https://reddit.com/r/KeyboardLayouts/comments/1pgtt3x/valmak_one_month_into_a_colemakenthium_hybrid/)
+- [cyanophage stats](https://cyanophage.github.io/playground.html?layout=wmfpb%3Duoyj%5Clnstg-eaihkzxcdv%2F%3B%2C.%27*rq&mode=ergo&lan=english&thumb=l)
+- [alt alpha](https://altalpha.timvink.nl/try-layout.html?target=valmak)
 
-The included shield nice_view_gem is modified from https://github.com/M165437/nice-view-gem licensed under the MIT License.
+i'm using timeless home row mods:
 
-ZMK code snippets are taken from the ZMK documentation under the MIT license.
+- [zmk docs](https://zmk.dev/docs/keymaps/behaviors/hold-tap?examples=home_row_mods)
+- [urob](https://github.com/urob/zmk-config#timeless-homerow-mods)
 
-The embedded font QuinqueFive is designed by GGBotNet, licensed under under the SIL Open Font License, Version 1.1.
+## toucan
+
+[the beekeeb toucan keyboard](https://beekeeb.com/toucan-keyboard/) is a wireless split 42-key column‑stagger keyboard that a display and a trackpad, with an aggressive stagger on the pinky columns.
+
+## license
+
+the code in this repo is available under the mit license.
+
+the included shield nice_view_gem is modified from https://github.com/m165437/nice-view-gem licensed under the mit license.
+
+zmk code snippets are taken from the zmk documentation under the mit license.
+
+the embedded font quinquefive is designed by ggbotnet, licensed under under the sil open font license, version 1.1.
