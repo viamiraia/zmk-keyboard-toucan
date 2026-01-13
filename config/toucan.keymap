@@ -19,9 +19,8 @@
     };
 
     behaviors {
-        hml: hml {
+        hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "home_row_mod_left";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -33,9 +32,8 @@
             hold-trigger-on-release;
         };
 
-        hmr: hmr {
+        hmr: home_row_mod_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "home_row_mod_right";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
