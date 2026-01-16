@@ -44,47 +44,47 @@ layers:
   - SPACE
   - RIGHT SHIFT
   NAV:
+  - NEXT
   - MUTE
-  - F1
-  - F2
-  - F3
-  - F4
-  - '&msc SCRL_UP'
+  - F7
+  - F8
+  - F9
+  - F12
   - '&mkp MCLK'
   - HOME
   - UP
   - END
   - DELETE
   - CAPSLOCK
+  - PLAY PAUSE
   - VOLUME UP
-  - ESCAPE
-  - LEFT ALT
-  - LEFT SHIFT
-  - LEFT CONTROL
-  - '&msc SCRL_DOWN'
+  - F4
+  - F5
+  - F6
+  - F11
   - '&mkp RCLK'
   - LEFT
   - DOWN
   - RIGHT
   - PAGE UP
   - PRINTSCREEN
+  - PREVIOUS
   - VOLUME DOWN
-  - LEFT GUI
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
+  - F1
+  - F2
+  - F3
   - F10
-  - F11
-  - F12
+  - '&mkp MB3'
+  - '&msc SCRL_LEFT'
+  - ESCAPE
+  - '&msc SCRL_RIGHT'
   - PAGE DOWN
   - PAUSE BREAK
-  - PLAY PAUSE
-  - SPACE
+  - '&mkp MB4'
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {type: held}
-  - LOCK
+  - AL LOCK
   - SLEEP
   SYM:
   - BACKSPACE
@@ -142,24 +142,24 @@ layers:
   - '&mkp MB5'
   - F19
   - F20
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - BRIGHTNESS DEC
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_RIGHT'
-  - F21
-  - F22
   - F13
   - F14
   - F15
   - F16
   - F17
   - F18
+  - BRIGHTNESS DEC
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - F21
+  - F22
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - PREVIOUS
   - REWIND
   - PLAY PAUSE
