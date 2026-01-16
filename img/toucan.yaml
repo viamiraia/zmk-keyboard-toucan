@@ -42,7 +42,7 @@ layers:
   - SYM
   - NAV
   - SPACE
-  - {t: ESCAPE, h: ADJ}
+  - {t: ESC, h: ADJ}
   NAV:
   - NEXT
   - MUTE

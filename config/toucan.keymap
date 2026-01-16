@@ -52,7 +52,7 @@
             #binding-cells = <0>;
             bindings = <&kp LG(X) &kp U &kp S>;
             label = "WIN_SLEEP_KEY";
-            wait-ms = <50>;
+            wait-ms = <500>;
             tap-ms = <5>;
         };
     };
@@ -63,7 +63,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp W  &kp M  &kp F  &kp P  &kp B  &kp EQUAL  &kp U  &kp O  &kp Y  &kp J  &kp BACKSLASH  &kp Q  &hml LEFT_GUI L  &hml LEFT_ALT N  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G  &kp MINUS  &hmr RIGHT_SHIFT E  &hmr RIGHT_CONTROL A  &hmr RIGHT_ALT I  &hmr RIGHT_GUI H  &kp K  &kp LCTRL  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp SLASH  &kp SEMICOLON  &kp COMMA  &kp DOT  &kp SQT  &kp RETURN  &kp BACKSPACE  &kp R  &mo 2  &mo 1  &kp SPACE  &lt 3 ESCAPE
+&kp TAB  &kp W  &kp M  &kp F  &kp P  &kp B  &kp EQUAL  &kp U  &kp O  &kp Y  &kp J  &kp BACKSLASH  &kp Q  &hml LEFT_GUI L  &hml LEFT_ALT N  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G  &kp MINUS  &hmr RIGHT_SHIFT E  &hmr RIGHT_CONTROL A  &hmr RIGHT_ALT I  &hmr RIGHT_GUI H  &kp K  &kp LCTRL  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp SLASH  &kp SEMICOLON  &kp COMMA  &kp DOT  &kp SQT  &kp RETURN  &kp BACKSPACE  &kp R  &mo 2  &mo 1  &kp SPACE  &lt 3 ESC
             >;
         };
 
@@ -84,7 +84,7 @@
         adj {
             display-name = "ADJ";
             bindings = <
-&studio_unlock  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &kp C_BRIGHTNESS_INC  &mkp MB4  &msc SCRL_UP  &mkp MB5  &kp F19  &kp F20  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &kp C_BRIGHTNESS_DEC  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp F21  &kp F22  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp C_PREVIOUS  &kp C_REWIND  &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD  &kp C_NEXT  &kp F23  &tog 2  &tog 1  &trans  &trans  &tog 4  &trans
+&studio_unlock  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &kp C_BRIGHTNESS_INC  &mkp MB4  &msc SCRL_UP  &mkp MB5  &kp F19  &kp F20  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &kp C_BRIGHTNESS_DEC  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp F21  &kp F22  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp C_PREVIOUS  &kp C_REWIND  &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD  &kp C_NEXT  &kp F23  &to 2  &to 1  &trans  &trans  &tog 4  &trans
             >;
         };
 
