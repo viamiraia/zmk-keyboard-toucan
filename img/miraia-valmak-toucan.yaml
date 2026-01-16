@@ -42,7 +42,7 @@ layers:
   - SYM
   - NAV
   - SPACE
-  - RIGHT SHIFT
+  - {t: ESCAPE, h: ADJ}
   NAV:
   - NEXT
   - MUTE
@@ -76,16 +76,16 @@ layers:
   - F10
   - '&mkp MB3'
   - '&msc SCRL_LEFT'
-  - ESCAPE
   - '&msc SCRL_RIGHT'
+  - ESCAPE
   - PAGE DOWN
   - PAUSE BREAK
   - '&mkp MB4'
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {type: held}
-  - AL LOCK
-  - SLEEP
+  - {t: NAV, h: toggle}
+  - '&win_sleep'
   SYM:
   - BACKSPACE
   - KP DIVIDE
@@ -124,7 +124,7 @@ layers:
   - '`'
   - '&'
   - KP NUMLOCK
-  - LEFT GUI
+  - {t: SYM, h: toggle}
   - {type: held}
   - {t: ▽, type: trans}
   - _
@@ -166,9 +166,52 @@ layers:
   - FAST FORWARD
   - NEXT
   - F23
+  - {t: SYM, h: toggle}
+  - {t: NAV, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: game, h: toggle}
   - {type: held}
-  - {type: held}
+  game:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RET
+  - BSPC
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - SPACE
+  - {t: game, h: toggle}

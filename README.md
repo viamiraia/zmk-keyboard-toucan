@@ -17,7 +17,7 @@ i'm using timeless home row mods:
 
 drawn using [keymap-drawer](https://github.com/caksoylar/keymap-drawer)
 
-![miraia's valmak toucan layout](./img/miraia-valmak-toucan.svg)
+![miraia's valmak toucan layout](./img/toucan.svg)
 
 ### drawing steps
 
