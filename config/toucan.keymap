@@ -46,41 +46,52 @@
         };
     };
 
+    macros {
+        win_sleep: win_sleep {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(X) &kp U &kp S>;
+            label = "WIN_SLEEP_KEY";
+            wait-ms = <50>;
+            tap-ms = <5>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp W  &kp M  &kp F  &kp P  &kp B  &kp EQUAL  &kp U  &kp O  &kp Y  &kp J  &kp BACKSLASH  &kp Q  &hml LEFT_GUI L  &hml LEFT_ALT N  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G  &kp MINUS  &hmr RIGHT_SHIFT E  &hmr RIGHT_CONTROL A  &hmr RIGHT_ALT I  &hmr RIGHT_GUI H  &kp K  &kp LCTRL  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp SLASH  &kp SEMICOLON  &kp COMMA  &kp DOT  &kp SQT  &kp RETURN  &kp BACKSPACE  &kp R  &mo 2  &mo 1  &kp SPACE  &kp RIGHT_SHIFT
+&kp TAB  &kp W  &kp M  &kp F  &kp P  &kp B  &kp EQUAL  &kp U  &kp O  &kp Y  &kp J  &kp BACKSLASH  &kp Q  &hml LEFT_GUI L  &hml LEFT_ALT N  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G  &kp MINUS  &hmr RIGHT_SHIFT E  &hmr RIGHT_CONTROL A  &hmr RIGHT_ALT I  &hmr RIGHT_GUI H  &kp K  &kp LCTRL  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp SLASH  &kp SEMICOLON  &kp COMMA  &kp DOT  &kp SQT  &kp RETURN  &kp BACKSPACE  &kp R  &mo 2  &mo 1  &kp SPACE  &lt 3 ESCAPE
             >;
         };
 
         nav {
             display-name = "NAV";
             bindings = <
-&kp C_NEXT  &kp C_MUTE  &kp F7  &kp F8  &kp F9  &kp F12  &mkp MCLK  &kp HOME  &kp UP  &kp END  &kp DELETE  &kp CAPSLOCK  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &kp F4  &kp F5  &kp F6  &kp F11  &mkp RCLK  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_UP  &kp PRINTSCREEN  &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp F1  &kp F2  &kp F3  &kp F10  &mkp MB3  &msc SCRL_LEFT  &kp ESCAPE  &msc SCRL_RIGHT  &kp PAGE_DOWN  &kp PAUSE_BREAK  &mkp MB4  &mkp MB5  &trans  &trans  &kp C_AL_LOCK  &kp K_SLEEP
+&kp C_NEXT  &kp C_MUTE  &kp F7  &kp F8  &kp F9  &kp F12  &mkp MCLK  &kp HOME  &kp UP  &kp END  &kp DELETE  &kp CAPSLOCK  &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &kp F4  &kp F5  &kp F6  &kp F11  &mkp RCLK  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_UP  &kp PRINTSCREEN  &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp F1  &kp F2  &kp F3  &kp F10  &mkp MB3  &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp ESCAPE  &kp PAGE_DOWN  &kp PAUSE_BREAK  &mkp MB4  &mkp MB5  &trans  &trans  &tog 1  &win_sleep
             >;
         };
 
         sym {
             display-name = "SYM";
             bindings = <
-&kp BACKSPACE  &kp KP_DIVIDE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_EQUAL  &kp PERCENT  &kp AT_SIGN  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE  &kp CARET  &kp KP_PLUS  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER  &kp HASH  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp DOLLAR  &kp KP_MINUS  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT  &kp PIPE  &kp EXCLAMATION  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE  &kp AMPERSAND  &kp KP_NUMLOCK  &kp LEFT_GUI  &trans  &trans  &kp UNDER  &kp DOUBLE_QUOTES
+&kp BACKSPACE  &kp KP_DIVIDE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_EQUAL  &kp PERCENT  &kp AT_SIGN  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp TILDE  &kp CARET  &kp KP_PLUS  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER  &kp HASH  &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON  &kp DOLLAR  &kp KP_MINUS  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT  &kp PIPE  &kp EXCLAMATION  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE  &kp AMPERSAND  &kp KP_NUMLOCK  &tog 2  &trans  &trans  &kp UNDER  &kp DOUBLE_QUOTES
             >;
         };
 
         adj {
             display-name = "ADJ";
             bindings = <
-&studio_unlock  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &kp C_BRIGHTNESS_INC  &mkp MB4  &msc SCRL_UP  &mkp MB5  &kp F19  &kp F20  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &kp C_BRIGHTNESS_DEC  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp F21  &kp F22  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp C_PREVIOUS  &kp C_REWIND  &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD  &kp C_NEXT  &kp F23  &trans  &trans  &trans  &trans  &trans  &trans
+&studio_unlock  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &kp C_BRIGHTNESS_INC  &mkp MB4  &msc SCRL_UP  &mkp MB5  &kp F19  &kp F20  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &kp C_BRIGHTNESS_DEC  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp F21  &kp F22  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp C_PREVIOUS  &kp C_REWIND  &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD  &kp C_NEXT  &kp F23  &tog 2  &tog 1  &trans  &trans  &tog 4  &trans
             >;
         };
 
-        extra_1 { status = "reserved"; };
-
-        extra_2 { status = "reserved"; };
-
-        extra_3 { status = "reserved"; };
+        game {
+            bindings = <
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BSLH  &kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RET  &kp BSPC  &kp SPACE  &trans  &trans  &kp SPACE  &tog 4
+            >;
+        };
     };
 };
