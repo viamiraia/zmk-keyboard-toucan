@@ -43,49 +43,6 @@ layers:
   - NAV
   - SPACE
   - {t: ESC, h: ADJ}
-  NAV:
-  - NEXT
-  - MUTE
-  - F7
-  - F8
-  - F9
-  - F12
-  - '&mkp MCLK'
-  - HOME
-  - UP
-  - END
-  - DELETE
-  - CAPSLOCK
-  - PLAY PAUSE
-  - VOLUME UP
-  - F4
-  - F5
-  - F6
-  - F11
-  - '&mkp RCLK'
-  - LEFT
-  - DOWN
-  - RIGHT
-  - PAGE UP
-  - PRINTSCREEN
-  - PREVIOUS
-  - VOLUME DOWN
-  - F1
-  - F2
-  - F3
-  - F10
-  - '&mkp MB3'
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_RIGHT'
-  - ESCAPE
-  - PAGE DOWN
-  - PAUSE BREAK
-  - '&mkp MB4'
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: NAV, h: toggle}
-  - '&win_sleep'
   SYM:
   - BACKSPACE
   - KP DIVIDE
@@ -129,6 +86,49 @@ layers:
   - {t: ▽, type: trans}
   - _
   - '"'
+  NAV:
+  - NEXT
+  - MUTE
+  - F7
+  - F8
+  - F9
+  - F12
+  - '&mkp MCLK'
+  - HOME
+  - UP
+  - END
+  - DELETE
+  - CAPSLOCK
+  - PLAY PAUSE
+  - VOLUME UP
+  - F4
+  - F5
+  - F6
+  - F11
+  - '&mkp RCLK'
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PAGE UP
+  - PRINTSCREEN
+  - PREVIOUS
+  - VOLUME DOWN
+  - F1
+  - F2
+  - F3
+  - F10
+  - '&mkp MB3'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
+  - ESCAPE
+  - PAGE DOWN
+  - PAUSE BREAK
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: NAV, h: toggle}
+  - '&win_sleep'
   ADJ:
   - '&studio_unlock'
   - {t: BT DISC, h: '0'}
@@ -211,7 +211,7 @@ layers:
   - RET
   - BSPC
   - SPACE
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - SPACE
-  - {t: game, h: toggle}
+  - {t: game, h: toggle, type: held}
